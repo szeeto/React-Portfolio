@@ -11,7 +11,7 @@ function App() {
             <img src={DataImage.HeroImage} alt="Hero Image" className="w-10 rounded-md" />
             <q>Kode Yang Indah, Lahir Dari Ketekunan.😁</q>
           </div>
-          <h1 className="text-5xl font-bold mb-6">His, Saya <span className="text-blue-600">Patra Sawali</span></h1>
+          <h1 className="text-5xl font-bold mb-6">Hi, Saya <span className="text-blue-600">Patra Sawali</span></h1>
           <p className="text-lg text-gray-400 mb-6">Saya adalah seorang pelajar yang tertarik pada dunia IT, khususnya dalam bidang pemrograman web. Saya senang mempelajari berbagai teknologi seperti HTML, CSS, JavaScript, dan framework modern untuk mengembangkan situs web yang interaktif dan responsif. Selain itu, saya juga memiliki minat untuk terus mengasah kemampuan logika dan pemecahan masalah melalui proyek-proyek kecil maupun pembelajaran mandiri.</p>
           <div className="flex items-center sm:gap-4 gap-2">
             <a href="#" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600">Download CV <i className="ri-download-line ri-lg"></i></a>
