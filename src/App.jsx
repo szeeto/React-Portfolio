@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       {/* Hero Section */}
-      <div id="Home" className="hero grid md:grid-cols-2 pt-10 items-center xl:gap-0 gap-6 grid-cols-1">
+      <div id="Home" className="hero grid md:grid-cols-2 pt-20 items-center xl:gap-0 gap-6 grid-cols-1 scroll-mt-20">
         <div className="animate__animated animate__fadeInUp animate__delay-3s">
           <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl">
             <img src={DataImage.HeroImage} alt="Hero Image" className="w-10 rounded-md" />
@@ -24,7 +24,7 @@ function App() {
       {/* End Hero Section */}
 
       {/* About Section */}
-      <div className="about mt-32 py-10" id="About">
+      <div className="about mt-32 py-10 scroll-mt-20" id="About">
         <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg " data-aos="fade-up" data-aos-duration="1000">
           <img src={DataImage.HeroImage} alt="image" className="w-12 rounded-md mb-10 sm:hidden items-center" />
           <p className="text-base/loose mb-10 ">Hi,Saya <span className="text-blue-600 font-semibold ">Patra Sawali</span>, seorang pelajar yang memiliki ketertarikan besar di bidang IT, khususnya dalam pengembangan web.
@@ -66,7 +66,7 @@ function App() {
       {/* End About */}
 
       {/* Project Section */}
-      <div id="Projects" className="project mt-4 py-10">
+      <div id="Projects" className="project mt-4 py-10 scroll-mt-20">
         <h1 className="text-center text-4xl font-bold mb-2"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Project</h1>
         <p className="text-base/loose text-center opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Berikut beberapa project yang telah saya buat</p>
         <div className="project-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
@@ -92,7 +92,7 @@ function App() {
       {/* end Project Section */}
 
       {/* Blog Article Section */}
-      <div className="blog-article mt-32 " id="Articles">
+      <div className="blog-article mt-32 scroll-mt-20" id="Articles">
         <h1 className="text-4xl mb-2 font-bold text-center" data-aos="fade-up" data-aos-duration="1000">Blog Article</h1>
         <p className="text-base/loose text-center mb-10 opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Artikel terbaru dari saya</p>
         
@@ -115,7 +115,7 @@ function App() {
       {/* End Blog Article Section */}
 
       {/*contact section*/}
-      <div id="Contact" className="contact mt-32 sm:p-10 p-0">
+      <div id="Contact" className="contact mt-32 sm:p-10 p-10 scroll-mt-20">
         <h1 className="text-4xl mb-2 font-bold text-center" data-aos="fade-up" data-aos-duration="1000">Kontak</h1>
         <p className="text-base/loose text-center mb-10 opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Mari terhubung dengan saya</p>
         <form action="https://formsubmit.co/patrasawali93@gmail.com" method="POST" className="bg-zinc-800 p-10 sm:w-fit w-full mx-auto rounded-md" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" autoComplete="off">
