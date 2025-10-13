@@ -23,18 +23,21 @@ const Navbar = () => {
             <div className="logo">
                 <h1 className="text-3xl font-bold bg-white text-black p-1 md:bg-transparent md:text-white">Portfolio</h1>
             </div>
-            <ul className={`menu flex items-center sm:gap-10 gap-4 md:static fixed left-1/2 -translate-x-1/2 md:-translate-x-0 md:opacity-100 bg-white/30 backdrop-blur-md p-4 rounded-br-2xl rounded-bl-2xl md:bg-transparent transition-all md:transition-none z-50 ${active ? 'top-0 opacity-100' : 'top-10 opacity-0'}`}>
+            <ul className={`menu flex items-center sm:gap-10 gap-4 md:static fixed left-1/2 -translate-x-1/2 md:-translate-x-0 md:opacity-100 bg-white/30 backdrop-blur-md p-4 rounded-br-2xl rounded-bl-2xl md:bg-transparent transition-all md:transition-none z-40 ${active ? 'top-0 opacity-100' : 'top-10 opacity-0'}`}>
                 <li>
-                    <a href="#Home" className="sm:text-lg text-base font-medium">Home</a>
+                    <a href="#Home" className="sm:text-lg text-base font-medium px-4 py-2 rounded-md transition-all duration-300 md:hover:bg-violet-500">Home</a>
                 </li>
                 <li>
-                    <a href="#About" className="sm:text-lg text-base font-medium">About</a>
+                    <a href="#About" className="sm:text-lg text-base font-medium px-4 py-2 rounded-md transition-all duration-300 md:hover:bg-violet-500">About</a>
                 </li>
                 <li>
-                    <a href="#Projects" className="sm:text-lg text-base font-medium">Projects</a>
+                    <a href="#Projects" className="sm:text-lg text-base font-medium px-4 py-2 rounded-md transition-all duration-300 md:hover:bg-violet-500">Projects</a>
                 </li>
                 <li>
-                    <a href="#Contact" className="sm:text-lg text-base font-medium">Contact</a>
+                    <a href="#Articles" className="sm:text-lg text-base font-medium px-4 py-2 rounded-md transition-all duration-300 md:hover:bg-violet-500">Article</a>
+                </li>
+                <li>
+                    <a href="#Contact" className="sm:text-lg text-base font-medium px-4 py-2 rounded-md transition-all duration-300 md:hover:bg-violet-500">Contact</a>
                 </li>
             </ul>
         </div>

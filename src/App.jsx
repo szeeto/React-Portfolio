@@ -1,5 +1,6 @@
 import DataImage from "./data"
 import { listTools, listProyek } from "./data";
+import {BlogArticle} from "./data"
 
 function App() {
   return (
@@ -89,6 +90,29 @@ function App() {
         </div>
       </div>
       {/* end Project Section */}
+
+      {/* Blog Article Section */}
+      <div className="blog-article mt-32 " id="Articles">
+        <h1 className="text-4xl mb-2 font-bold text-center" data-aos="fade-up" data-aos-duration="1000">Blog Article</h1>
+        <p className="text-base/loose text-center mb-10 opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Artikel terbaru dari saya</p>
+        
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
+          {BlogArticle.map((article) => (
+            <div key={article.id} className="bg-zinc-800 rounded-lg overflow-hidden" data-aos="fade-up" data-aos-duration="1000" data-aos-delay={article.dad}>
+              <img src={article.image} alt={article.title} className="w-full h-48 object-cover"/>
+              <div className="p-6">
+                <h2 className="text-xl font-bold mb-2">{article.title}</h2>
+                <p className="text-gray-400 mb-4">{article.excerpt}</p>
+                <div className="flex justify-between items-center">
+                  <span className="text-sm text-gray-400">{article.date}</span>
+                  <a href={article.link} className="text-violet-500 hover:text-violet-400">Baca selengkapnya →</a>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+      {/* End Blog Article Section */}
 
       {/*contact section*/}
       <div id="Contact" className="contact mt-32 sm:p-10 p-0">

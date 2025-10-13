@@ -155,3 +155,67 @@ export const listProyek = [
     dad: "700",
   },
 ];
+
+import Article1 from "/assets/blog/artikel1.jpg";
+import Article2 from "/assets/blog/artikel2.jpg";
+import Article3 from "/assets/blog/artikel3.jpg";
+import Article4 from "/assets/blog/artikel4.jpg";
+import Article5 from "/assets/blog/artikel5.png";
+import Article6 from "/assets/blog/artikel6.jpg";
+
+export const BlogArticle = [
+  {
+    id: 1,
+    image: Article1,
+    title: "Teknologi Favorit yang Saya Gunakan dalam Setiap Proyek",
+    excerpt: "Membahas berbagai teknologi dan tools yang sering saya gunakan dalam pengembangan website modern.",
+    date: "20 Jan 2024",
+    link: "#",
+    dad: "200"
+  },
+  {
+    id: 2,
+    image: Article2,
+    title: "10 Inspirasi Desain Portofolio Website Masa Kini",
+    excerpt: "Kumpulan inspirasi desain portofolio website yang modern dan menarik untuk tahun 2024.",
+    date: "15 Jan 2024",
+    link: "#",
+    dad: "300"
+  },
+  {
+    id: 3,
+    image: Article3,
+    title: "Penerapan Tailwind CSS dalam Proyek Nyata",
+    excerpt: "Tutorial dan tips menggunakan Tailwind CSS dalam pengembangan website yang responsif.",
+    date: "10 Jan 2024",
+    link: "#",
+    dad: "400"
+  },
+  {
+    id: 4,
+    image: Article4,
+    title: "5 Tips Meningkatkan Skill Coding untuk Pemula",
+    excerpt: "Panduan praktis untuk mengembangkan kemampuan coding bagi para programmer pemula.",
+    date: "5 Jan 2024",
+    link: "#",
+    dad: "500"
+  },
+  {
+    id: 5,
+    image: Article5,
+    title: "Mengenal Lebih Dekat Framework CSS",
+    excerpt: "Pembahasan mendalam tentang berbagai framework CSS populer dan penggunaannya.",
+    date: "1 Jan 2024",
+    link: "#",
+    dad: "600"
+  },
+  {
+    id: 6,
+    image: Article6,
+    title: "Mengenal Lebih Dekat Framework JavaScript",
+    excerpt: "Pengenalan berbagai framework JavaScript modern dan cara memilih yang tepat.",
+    date: "28 Dec 2023",
+    link: "#",
+    dad: "700"
+  }
+];
