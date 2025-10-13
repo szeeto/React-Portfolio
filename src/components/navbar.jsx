@@ -22,7 +22,7 @@ const Navbar = () => {
     return (
         <div className={`Navbar py-4 px-4 flex justify-between items-center fixed w-full top-0 left-0 right-0 bg-black/50 backdrop-blur-md z-40`}>
             <div className="logo">
-                <h1 className="text-2xl md:text-3xl font-bold text-white">Portfolio</h1>
+                <h1 className="text-2xl md:text-3xl font-bold text-white"><a href="#home">Portfolio</a></h1>
             </div>
             
             <button 
