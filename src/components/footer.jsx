@@ -20,6 +20,9 @@ function Footer() {
         <a href="https://twitter.com/SawaliPatr69098">
           <i className='ri-twitter-fill ri-2x'></i>
         </a>
+        <a href="https://www.linkedin.com/in/patra-sawali-7a482138a/">
+          <i className='ri-linkedin-fill ri-2x'></i>
+        </a>
       </div>
     </div>
   )
