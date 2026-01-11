@@ -82,7 +82,7 @@ function App() {
                   ))}
                 </div>
                 <div className="mt-8 text-center ">
-                  <a href="#" className="bg-violet-700 p-3 rounded-b-lg block border border-zinc-600 hover:bg-violet-600">Lihat Website</a>
+                  <a href="https://ngoding-courses.vercel.app/" className="bg-violet-700 p-3 rounded-b-lg block border border-zinc-600 hover:bg-violet-600">Lihat Website</a>
                 </div>
               </div>
             </div>
